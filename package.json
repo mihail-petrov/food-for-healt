@@ -5,6 +5,7 @@
   "main": "script.js",
   "type": "module",
   "scripts": {
+    "build": "echo build your app here",
     "start": "node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
