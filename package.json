@@ -4,7 +4,7 @@
   "description": "Pet project repo for building food managmang app",
   "main": "script.js",
   "scripts": {
-    "build": "echo build your app here",
+    "build": "npm install",
     "start": "node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
