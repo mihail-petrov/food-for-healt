@@ -2,8 +2,11 @@ const express   = require('express');
 const APP       = express();
 const PORT      = process.env.PORT || 5000;
 
+APP.use(express.json());
+APP.use(express.static('public'));
+
 APP.get('/', (req, res) => {
-    res.send('Hello World');
+    res.sendFile('/public/index.html', { root : __dirname });
 });
 
 
